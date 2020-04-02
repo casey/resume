@@ -1,0 +1,111 @@
+{% for import in imports -%}
+@import url('{{import}}');
+{%- endfor %}
+
+html {
+  font-family:    {{main_font}};
+  font-weight:    300;
+  font-style:     normal;
+  font-size:      16px;
+  letter-spacing: {{letter_spacing}};
+}
+
+body {
+  margin-top:    1in;
+  margin-bottom: 1in;
+  margin-left:   auto;
+  margin-right:  auto;
+  width:         6.5in;
+}
+
+header {
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-family: {{header_font}};
+  font-weight: 300;
+  font-style:  normal;
+  font-size:   36px;
+}
+
+h2 {
+  display:       inline;
+  font-size:     16px;
+  font-style:    italic;
+  font-weight:   300;
+  margin-top:    0;
+  margin-bottom: 0;
+  float:         left;
+}
+
+h3 {
+  display:     inline;
+  font-size:   16px;
+}
+
+h3.emphasized {
+  font-weight: bold;
+}
+
+h3:not(.emphasized) {
+  font-style:  italic;
+  font-weight: 300;
+}
+
+a {
+  color:           blue;
+  text-decoration: none;
+}
+
+ul {
+  margin-block-end:     0;
+  margin-block-start:   0;
+  margin-inline-end:    0;
+  margin-inline-start:  0;
+  padding-inline-start: 0;
+}
+
+section, section > div {
+  margin-top:    16px;
+  margin-bottom: 16px;
+}
+
+section > :not(h2) {
+  margin-left: 1.375in;
+}
+
+.link {
+  display: block;
+}
+
+ul.bulleted, ul.grid {
+  list-style-position: outside;
+  margin-left:         1em;
+}
+
+.grid {
+  display:               grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li > span {
+  position: relative;
+  left:     -0.375em;
+}
+
+ul.list {
+  display: inline;
+}
+
+ul.list > li {
+  display: inline;
+}
+
+ul.list > li::after {
+  content: ", ";
+}
+
+ul.list > li:last-child::after {
+  content: "";
+}

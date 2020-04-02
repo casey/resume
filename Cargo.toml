@@ -1,0 +1,16 @@
+[package]
+name    = "resume"
+version = "0.1.0"
+authors = ["Casey Rodarmor <casey@rodarmor.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+serde_yaml = "0.8.11"
+askama     = "0.9.0"
+url_serde  = "0.2.0"
+url        = "1.7.2"
+
+[dependencies.serde]
+version = "1.0.105"
+features = ["derive"]

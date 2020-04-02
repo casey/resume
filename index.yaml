@@ -1,0 +1,199 @@
+name:  Casey Rodarmor
+
+style:
+  main_font: sans-serif
+  header_font: sans-serif
+
+links:
+  - text: +1.510.290.7561
+    url:  "tel:+15102907561"
+
+  - text: casey@rodarmor.com
+    url:  mailto:casey@rodarmor.com
+
+sections:
+  - name: Work
+    emphasized: true
+    items:
+
+    - name: Layer 1 Capital
+      notes:
+      - Head of Opportunity Fund Operations
+      - November 2018 to Present
+      points:
+      - Researched and benchmarked cost-effective GPU mining options for the Grin cryptocurrency
+      - Designed and implemented a resiliant security and custody system for Fund holdings
+      - Contributes to day-to-day fund operations and strategy
+
+    - name: Oculus VR
+      notes:
+      - Software Engineer
+      - Platform SDK
+      - October 2015 to May 2017
+      points:
+      - Developed a custom codegen framework for the Platform SDK codebase, automating the manual creation of C++ deserialization, C++ to C FFI, C headers, C to C# FFI, C# API wrappers, C++ API wrappers, site documentation, and Doxygen documentation, totaling tens of thousands of lines of code and dramatically improving team productivity
+
+    - name: Chaincode Labs
+      notes:
+      - Software Engineer
+      - July 2015 to October 2015
+      points:
+      - Contributed fifteen patches to Bitcoin Core
+      - Refactored Bitcoin Core regression test framework for length and readability
+
+    - name:  Self-employed
+      notes:
+      - Software Engineer and VJ
+      - November 2013 to July 2015
+      points:
+      - Designed and implemented two creative-coding frameworks, the first in JavaScript and targeting the browser, and the second in C++ using OpenGL, both for real-time audio-reactive visuals
+      - Performed live sets with both frameworks in clubs in Oakland and Tokyo
+
+    - name:  Kaiju Inc.
+      notes:
+      - Co-founder and Lead Developer
+      - February 2013 to November 2013
+      points:
+      - Designed and implemented a scalable cloud music sharing service on AWS
+
+    - name:  Google
+      notes:
+      - Site Reliability and Software Engineer
+      - July 2010 to February 2013
+      points:
+      - Designed and implemented a cross-browser JavaScript 3D rendering library
+      - Prototyped countless different UI concepts and experiments for Street View
+      - Served on the on-call rotation for Google’s front end reverse proxy and multiple layers of front end load balancing that handle all requests to all Google services
+
+  - name:       Education
+    emphasized: true
+    items:
+    - name: University of California at Berkeley
+      notes:
+      - B.A.
+      - Computer Science
+      - 3.5 GPA
+      - Fall 2009
+      grid:
+      - Computer Programs*
+      - Data Structures*
+      - Machine Structures*
+      - Discrete Mathematics
+      - Artificial Intelligence
+      - Digital Design
+      - Operating Systems
+      - Computer Networks
+      - Computer Graphics
+      - Database Systems
+      - Algorithms
+      - Languages & Compilers*
+      aside: "* A+ grade received"
+
+  - name: Misc.
+    emphasized: true
+    items:
+
+    - name: Research Programmer
+      notes:
+      - Par Lab, UC Berkeley
+      - Summer 2009
+      points:
+      - Developed a case-study implementation of DSW graph traversal using the SKETCH software synthesis system
+      - Co-designed and implemented a new implementation of SKETCH in Scala
+
+    - name: "Teaching Assistant"
+      notes:
+      - "CS 61C: Machine Structures, UC Berkeley"
+      - Spring 2008
+      points:
+      - Demystified topics including pipelined CPU design, caches, virtual memory, I/O, parallelism, and assembly language programming in weekly discussion sections
+      - Co-designed and implemented a wholly new class project, which was acclaimed for fun-factor and pedagogy alike and reused in later classes
+      - Rated 4.7 out of 5.0 by students for overall teaching effectiveness
+
+    - name: Programming Intern
+      notes:
+      - Double Fine Productions
+      - Summer 2007
+      points:
+      - Overhauled the application layer of an in-development next-gen game for maintainability and clarity, moving and altering thousands of lines of code
+      - Collaborated as part of a small team of artists and programmers in the conception, design, and implementation of an experimental, in-house game
+      - Devised and built a thread utilization display system for the PS3 and Xbox 360
+      - Upgraded the game engine’s PS3 multitasking subsystem with functionality to reload SPU binaries on the fly
+
+    - name: Peer Instructor
+      notes:
+      - UC Berkeley Self-paced Center
+      - Spring 2007 to Fall 2007
+      points:
+      - Instructed individual students in 9 different self-paced computer science courses
+      - Communicated the joy and creativity of computer science to students with a wide range of majors, backgrounds, and interests
+
+  - name: Activites
+    items:
+    - name: Recurse Center
+      link: https://www.recurse.com/
+      notes:
+      - Spring 2018
+      - Winter 2014
+
+  - name: Projects
+    items:
+    - name: just
+      link: https://github.com/casey/just
+      notes:
+      - CLI task runner written in Rust
+      - 1.5k stars
+    - name:  boot
+      link:  https://youtu.be/TURoRXbWBWk
+      notes:
+      - An infinite loop
+
+  - name: Publications
+    items:
+    - name: Programming with Angelic Nondeterminism
+      link: https://rodarmor.com/static/popl2010.pdf
+      notes:
+      - 37th POPL Symposium, R. Bodik et al.
+
+  - name: Art
+    items:
+    - name: Partyline
+      link: https://youtu.be/VJXBb-Gubok
+      notes:
+      - Exhibited at The Creator’s Project San Francisco 2012 with Brandon Liu
+
+  - name: Skills
+    entries:
+    - Verilog
+    - MIPS
+    - x86
+    - GLSL
+    - C
+    - C++
+    - Rust
+    - Java
+    - Haskell
+    - Python
+    - sh
+    - Scheme
+    - Javascript
+    - Bitcoin
+    - BitTorrent
+    - HTML
+    - CSS
+    - Git
+    - SVN
+    - Unix
+    - OpenGL
+    - English
+    - Swedish
+    - Spanish
+
+  - name: Interests
+    entries:
+    - Decentralized systems
+    - games
+    - music
+    - graphics
+    - languages
+    - art

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{name}}'s Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>{{name}}</h1>
+
+      {% for link in links %}
+      <div class="link">
+        <a href="{{link.url}}">{{link.text}}</a>
+      </div>
+      {% endfor %}
+    </header>
+
+    {% for section in sections %}
+    <section id="{{section.name}}">
+      <h2>{{section.name}}</h2>
+      {% match section.body %}
+
+      {% when Body::Items with {items} %}
+
+      {% for item in items %}
+      <div>
+
+        {% if section.emphasized %}
+        <h3 class="emphasized">
+        {% else %}
+        <h3>
+        {% endif %}
+
+        {% match item.link %}
+        {% when Some with (link) %}
+        <a href="{{link}}">
+        {% when None %}
+        {% endmatch%}
+
+        {{item.name}}
+
+        {% match item.link %}
+        {% when Some with (_) %}
+        </a>
+        {% when None %}
+        {% endmatch%}
+
+        </h3>
+        {% match item.notes %}
+        {% when Some with (notes) %}
+
+        <span>&nbsp;</span>
+
+        <ul class="list">
+          {% for note in notes %}
+          <li>{{note}}</li>
+          {% endfor %}
+        </ul>
+        {% when None %}
+        {% endmatch %}
+
+        {% match item.points %}
+        {% when Some with (points) %}
+        <ul class="bulleted">
+          {% for point in points %}
+          <li><span>{{point}}</span></li>
+          {% endfor %}
+        </ul>
+        {% when None %}
+        {% endmatch %}
+
+        {% match item.grid %}
+        {% when Some with (grid) %}
+        <ul class="grid">
+          {% for cell in grid %}
+          <li><span>{{cell}}</span></li>
+          {% endfor %}
+        </ul>
+        {% when None %}
+        {% endmatch %}
+
+        {% match item.aside %}
+        {% when Some with (aside) %}
+        <div><em>{{aside}}</em></div>
+        {% when None %}
+        {% endmatch %}
+
+      </div>
+      {% endfor %}
+
+      {% when Body::List with {entries} %}
+
+      <div>
+        <ul class="list">
+          {% for entry in entries %}
+          <li>{{entry}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% endmatch %}
+    </section>
+    {% endfor %}
+
+  </body>
+</html>
