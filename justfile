@@ -20,3 +20,7 @@ render FILE="index.yaml":
 deploy: render
 	grep Verlag index.yaml
 	netlify deploy --prod
+
+rebase:
+	git checkout master
+	git rebase github
