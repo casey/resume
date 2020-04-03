@@ -8,7 +8,7 @@ To adapt for yourself, fork and modify `index.yaml`.
 
 You'll probably also want to apply some custom styling.
 
-## dramatiſ personae
+## dramatiſ personæ
 
 ```
 resume
