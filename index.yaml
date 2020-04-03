@@ -1,8 +1,10 @@
 name:  Casey Rodarmor
 
 style:
-  main_font: sans-serif
-  header_font: sans-serif
+  main_font: "'Montserrat', sans-serif"
+  header_font: "'Montserrat', sans-serif"
+  imports:
+  - "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
 
 links:
   - text: +1.510.290.7561
