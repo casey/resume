@@ -1,10 +1,11 @@
 name:  Casey Rodarmor
 
 style:
-  main_font: "'Montserrat', sans-serif"
-  header_font: "'Montserrat', sans-serif"
+  main_font: "'Verlag'"
+  header_font: "'Verlag XLight'"
+  letter_spacing: "-0.4375px"
   imports:
-  - "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+  - 'https://rodarmor.com/verlag/index.css'
 
 links:
   - text: +1.510.290.7561
