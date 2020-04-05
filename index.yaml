@@ -146,6 +146,10 @@ sections:
       notes:
       - CLI task runner written in Rust
       - 1.5k stars
+    - name: resume
+      link: https://github.com/casey/resume
+      notes:
+      - This resume
     - name:  boot
       link:  https://youtu.be/TURoRXbWBWk
       notes:

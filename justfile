@@ -17,6 +17,9 @@ open:
 render FILE="index.yaml":
 	cargo run {{FILE}}
 
+browse:
+	open https://rodarmor.com/resume/
+
 deploy: render
 	grep Verlag index.yaml
 	netlify deploy --prod
