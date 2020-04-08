@@ -2,8 +2,11 @@
 
 default: watch
 
-watch:
-	cargo watch --ignore www/index.html --ignore www/index.css --clear --exec run
+watch FILE="index.yaml":
+	cargo watch --ignore www/index.html --ignore www/index.css --clear --exec "run {{FILE}}"
+
+check:
+	cargo watch --ignore www/index.html --ignore www/index.css --clear --exec check
 
 serve:
 	netlify dev
@@ -11,8 +14,8 @@ serve:
 open:
 	open http://localhost:8888
 
-render:
-	cargo run
+render FILE="index.yaml":
+	cargo run {{FILE}}
 
 deploy: render
 	grep Verlag index.yaml
