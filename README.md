@@ -8,6 +8,11 @@ To adapt for yourself, fork and modify `index.yaml`.
 
 You'll probably also want to apply some custom styling.
 
+## runtime dependencies
+
+- [`tidy`](http://www.html-tidy.org), used to clean up the formatted HTML.
+
+
 ## dramatiſ personæ
 
 ```
