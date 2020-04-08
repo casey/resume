@@ -10,6 +10,7 @@ serde_yaml = "0.8.11"
 askama     = "0.9.0"
 url_serde  = "0.2.0"
 url        = "1.7.2"
+structopt = "0.3.12"
 
 [dependencies.serde]
 version = "1.0.105"

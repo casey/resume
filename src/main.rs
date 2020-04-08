@@ -5,14 +5,17 @@ mod common;
 mod index;
 mod item;
 mod link;
+mod opt;
 mod section;
 mod style;
 mod tidy;
 mod url;
 
 fn run() -> Result<()> {
-  eprintln!("Reading index.yaml…");
-  let yaml = fs::read_to_string("index.yaml")?;
+  let opt = Opt::from_args();
+
+  eprintln!("Reading {}…", opt.input.display());
+  let yaml = fs::read_to_string(opt.input)?;
 
   eprintln!("Deserializing index…");
   let index = serde_yaml::from_str::<Index>(&yaml)?;
