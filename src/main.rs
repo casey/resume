@@ -26,7 +26,7 @@ fn run() -> Result<()> {
   eprintln!("Tidying html…");
   let tidy = tidy(&html)?;
 
-  let dst = "www/index.html";
+  let dst = "www/resume/index.html";
 
   eprintln!("Writing `{}`…", dst);
   fs::write(dst, tidy)?;
@@ -34,7 +34,7 @@ fn run() -> Result<()> {
   eprintln!("Rendering CSS…");
   let css = index.style.render()?;
 
-  let dst = "www/index.css";
+  let dst = "www/resume/index.css";
   eprintln!("Writing `{}`…", dst);
   fs::write(dst, css)?;
 
