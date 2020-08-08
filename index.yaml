@@ -8,9 +8,6 @@ style:
   - 'https://rodarmor.com/verlag/index.css'
 
 links:
-  - text: +1.510.290.7561
-    url:  "tel:+15102907561"
-
   - text: casey@rodarmor.com
     url:  mailto:casey@rodarmor.com
 
