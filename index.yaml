@@ -22,7 +22,7 @@ sections:
       - November 2018 to Present
       points:
       - Researched and benchmarked cost-effective GPU mining options for the Grin cryptocurrency
-      - Designed and implemented a resiliant security and custody system for Fund holdings
+      - Designed and implemented a resilient security and custody system for Fund holdings
       - Contributes to day-to-day fund operations and strategy
 
     - name: Oculus VR
@@ -128,7 +128,7 @@ sections:
       - Instructed individual students in 9 different self-paced computer science courses
       - Communicated the joy and creativity of computer science to students with a wide range of majors, backgrounds, and interests
 
-  - name: Activites
+  - name: Activities
     items:
     - name: Recurse Center
       link: https://www.recurse.com/
@@ -180,7 +180,7 @@ sections:
     - Python
     - sh
     - Scheme
-    - Javascript
+    - JavaScript
     - Bitcoin
     - BitTorrent
     - HTML
