@@ -142,15 +142,12 @@ sections:
       link: https://github.com/casey/just
       notes:
       - CLI task runner written in Rust
-      - 1.5k stars
+      - 7k stars
+      - 1.1 million downloads
     - name: resume
       link: https://github.com/casey/resume
       notes:
       - This resume
-    - name:  boot
-      link:  https://youtu.be/TURoRXbWBWk
-      notes:
-      - An infinite loop
 
   - name: Publications
     items:
@@ -165,6 +162,17 @@ sections:
       link: https://youtu.be/VJXBb-Gubok
       notes:
       - Exhibited at The Creator’s Project San Francisco 2012 with Brandon Liu
+
+  - name: Comedy
+    items:
+    - name: boot
+      link: https://www.youtube.com/watch?v=TURoRXbWBWk
+      notes:
+      - An infinite loop
+    - name: recursive spreadsheets
+      link: https://www.youtube.com/watch?v=1WkMpa5zfTA
+      notes:
+      - Why not?
 
   - name: Skills
     entries:
@@ -186,7 +194,6 @@ sections:
     - HTML
     - CSS
     - Git
-    - SVN
     - Unix
     - OpenGL
     - English
@@ -196,6 +203,7 @@ sections:
   - name: Interests
     entries:
     - Decentralized systems
+    - competitive governance
     - games
     - music
     - graphics
